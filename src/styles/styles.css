@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  max-width: 1200px;
+  background-color: antiquewhite;
+  display: grid;
+  margin-inline: auto;
+  grid-template-rows: 200px, 1fr, 200px;
+  box-shadow: 3px 3px 10px rgb(247, 86, 86);
+}
+
+header {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  color: brown;
+  height: 6em;
+}
+
+nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav>button {
+  text-transform: uppercase;
+  height: 2em;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: brown;
+  border: none;
+  background-color: transparent;
+
+  &:hover {
+    border-bottom: 2px solid brown;
+  }
+}
+
+#content {
+  padding: 5%;
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.hero-section>P {
+  font-size: 1.3rem;
+  line-height: 2em;
+}
+
+.hero-section>img {
+  width: 1000px;
+  height: 500px;
+  border-radius: 10%;
+}
+
+.menu-section {
+  margin-block: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-section>table {
+  width: 50%;
+}
+
+h2 {
+  color: brown;
+  font-size: 2rem;
+}
+
+table {
+  margin-top: 1em;
+  text-align: left;
+}
+
+table th {
+  font-weight: 400;
+  border: 1px solid brown;
+  padding: 0.5em;
+}
+
+table td {
+  padding: 0.5em;
+  border: 1px solid brown;
+}
+
+thead tr:first-of-type {
+  color: brown;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+thead tr:first-of-type th {
+  font-weight: bold;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+}
+
+.about-section,
+.contact-section {
+  display: none;
+  line-height: 1.5em;
+}
