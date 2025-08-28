@@ -1,7 +1,7 @@
 {
-  "name": "restaurant-top",
+  "name": "frontend-starter-kit",
   "version": "1.0.0",
-  "description": "Practicing WebPack and its scary configurations",
+  "description": "A template repo for frontend dev",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thesyntaxdude/restaurant-top.git"
+    "url": "git+https://github.com/thesyntaxdude/frontend-starter-kit"
   },
   "keywords": [],
   "author": "thesyntaxdude",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thesyntaxdude/restaurant-top/issues"
+    "url": "https://github.com/thesyntaxdude/frontend-starter-kit/issues"
   },
-  "homepage": "https://github.com/thesyntaxdude/restaurant-top#readme",
+  "homepage": "https://github.com/thesyntaxdude/frontend-starter-kit#readme",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "html-loader": "^5.1.0",
