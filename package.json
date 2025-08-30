@@ -8,7 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "server": "webpack serve --mode development"
+    "server": "webpack serve --mode development",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -22,7 +25,12 @@
   },
   "homepage": "https://github.com/thesyntaxdude/frontend-starter-kit#readme",
   "devDependencies": {
+    "@eslint/css": "^0.11.0",
+    "@eslint/js": "^9.34.0",
+    "@eslint/json": "^0.13.2",
     "css-loader": "^7.1.2",
+    "eslint": "^9.34.0",
+    "globals": "^16.3.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.4",
     "style-loader": "^4.0.0",
